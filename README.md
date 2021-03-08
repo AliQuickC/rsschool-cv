@@ -1,1 +1,1 @@
-# https://AliQuickC.github.io/rsschool-cv/cv
+# https://aliquickc.github.io/rsschool-cv/
