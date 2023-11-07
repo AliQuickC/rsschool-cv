@@ -1,0 +1,36 @@
+*, *::before, *::after {
+	box-sizing: inherit
+}
+
+* {box-sizing: border-box}
+
+html, body {
+	width: 100%;
+	height: 100%;
+	margin: 0;
+}
+
+body {
+	font-family: sans-serif;
+	background-color: grey;
+}
+
+img {
+	max-width: 100%;
+	max-height: 100%;
+}
+
+.container {
+	width: 1140px;
+	height: 100%;
+	margin: 0 auto;
+	padding-left: 20px;
+	padding-right: 20px;
+	background-color: white;
+}
+
+@media(max-width: 1200px) {
+	.container {
+		width: auto;
+	}
+}
